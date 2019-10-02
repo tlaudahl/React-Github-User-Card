@@ -1,0 +1,69 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.followerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.followerCard {
+  width: 28%;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.followerCard img {
+  width: 100%;
+  display: block;
+}
+
+#userPicture {
+  width: 25%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 33%;
+  justify-self: flex-start;
+}
+
+.inputContainers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchContainer, .filterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.numFollowers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
