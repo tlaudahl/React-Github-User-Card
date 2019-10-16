@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "name": "React-Github-User-Card",
+    "builds": [{ "src": "React-Github-User-Card/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "React-Github-User-Card/$1" }
+    ]
+}
